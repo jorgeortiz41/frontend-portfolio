@@ -20,7 +20,7 @@ function Projects() {
           fontSize='6xl'
           fontWeight='extrabold'   
         >
-          Projects
+          Projects BOI
         </Text>
       </Box>
       <Tabs isFitted >
