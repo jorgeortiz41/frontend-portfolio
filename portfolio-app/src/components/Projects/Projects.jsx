@@ -6,6 +6,7 @@ import {
   HStack, VStack,
  } from '@chakra-ui/react'
 import dash from './monitor-overlay.png'
+import fire from './fire.gif'
 
 
 
@@ -14,14 +15,14 @@ function Projects() {
   return (
     <Box h='100%' mx='10'>
       <Box as='h1'textAlign='center' fontWeight="bold" alignContent="center" mb='20'>
-        <Text
-          bgGradient='linear(to-t, #805AD5, #B794F4)'
-          bgClip='text'
-          fontSize='6xl'
-          fontWeight='extrabold'   
-        >
-          Projects BOI
-        </Text>
+          <Text
+            bgGradient='linear(to-t, #805AD5, #B794F4)'
+            bgClip='text'
+            fontSize='6xl'
+            fontWeight='extrabold'   
+          >
+          Projects
+          </Text>
       </Box>
       <Tabs isFitted >
         <TabList>
@@ -122,6 +123,34 @@ function Projects() {
                   This could be done for the 12m too.
                   So the general problem my project aims to work on is, how can we improve the data accessibility, data collection, 
                   and user experience of the operations related to the 12m radio telescope?
+                </Text>
+                <HStack textAlign='center' spacing='10' mb='5' w='100%'>
+                  <Box w='33%' align='center'>
+                    <Image src={fire} h='300' w='200'/>
+                  </Box>
+                  <Box w='33%' align='center'>
+                    <Image src={fire} h='300' w='200'/>
+                  </Box>
+                  <Box w='33%' align='center'>
+                    <Image src={fire} h='300' w='200'/>
+                  </Box>
+                </HStack>
+                <Text
+                  bgGradient='linear(to-t, #805AD5, #B794F4)'
+                  bgClip='text'
+                  fontSize='3xl'
+                  fontWeight='extrabold'
+                >
+                  The Solution
+                </Text>
+                <Text
+                  bgGradient='linear(to-t, #A0AEC0, #CBD5E0)'
+                  bgClip='text'
+                  fontSize='lg'
+                  fontWeight='extrabold'
+                  align='start'
+                >
+                  Solution, solution, solution...
                 </Text>
             </VStack>
           </TabPanel>
