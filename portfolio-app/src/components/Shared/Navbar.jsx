@@ -13,7 +13,6 @@ import {
   import * as React from 'react'
   import { FiMenu } from 'react-icons/fi'
   import {AiFillGithub, AiFillLinkedin} from 'react-icons/ai'
-  import { Logo } from './Logo'
   import { ColorModeSwitcher } from './ColorModeSwitcher';
   import {Link} from 'react-router-dom'
 
