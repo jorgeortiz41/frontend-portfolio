@@ -1,6 +1,7 @@
 import React from 'react'
 import { Box, Text, Tab, Tabs, TabPanels, TabPanel, TabList } from '@chakra-ui/react'
 import Dashproj from './p1'
+import LuzVerde from './p2'
 
 
 
@@ -67,7 +68,7 @@ function Projects() {
             <Dashproj />
           </TabPanel>
           <TabPanel>
-
+            <LuzVerde />
           </TabPanel>
         </TabPanels>
       </Tabs>
