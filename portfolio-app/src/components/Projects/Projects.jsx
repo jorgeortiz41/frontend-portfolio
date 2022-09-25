@@ -2,6 +2,7 @@ import React from 'react'
 import { Box, Text, Tab, Tabs, TabPanels, TabPanel, TabList } from '@chakra-ui/react'
 import Dashproj from './p1'
 import LuzVerde from './p2'
+import PyDa from './p3'
 
 
 
@@ -12,7 +13,7 @@ function Projects() {
     <Box h='100%' mx='10'>
       <Box as='h1'textAlign='center' fontWeight="bold" alignContent="center" mb='20'>
           <Text
-            bgGradient='linear(to-t, #805AD5, #B794F4)'
+            bgGradient='linear(to-t, #A0AEC0, #CBD5E0)'
             bgClip='text'
             fontSize='6xl'
             fontWeight='extrabold'   
@@ -43,7 +44,7 @@ function Projects() {
               bgGradient='linear(to-t, #A0AEC0, #CBD5E0)'
               bgClip='text'  
             >
-              dengAI
+              PyDa
             </Text>
           </Tab>
           <Tab>
@@ -69,6 +70,9 @@ function Projects() {
           </TabPanel>
           <TabPanel>
             <LuzVerde />
+          </TabPanel>
+          <TabPanel>
+            <PyDa />
           </TabPanel>
         </TabPanels>
       </Tabs>

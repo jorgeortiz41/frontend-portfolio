@@ -1,18 +1,18 @@
 import React from 'react'
 import { VStack, Box, Text, Image, HStack, Link} from '@chakra-ui/react'
 import { ArrowUpIcon, ExternalLinkIcon } from '@chakra-ui/icons'
-import dash from './assets/monitor-overlay.png'
+import dash from './assets/luz-verde.png'
 import fire from './assets/fire.gif'
 import sysarch from './assets/sysarch.jpg'
 import records from './assets/records.png'
 import dashb from './assets/12m.png'
 
-function Dashproj() {
-  const colorGradient = 'linear(to-t, #2B6CB0, #63B3ED)'
+function PyDa() {
+  const  colorGradient = 'linear(to-t, #ECC94B, #FAF089)';
 
   return (
     <Box>
-    <HStack spacing='10' align='initial'>
+    <HStack spacing='200' align='initial'>
     <Box as='h1'textAlign='start' mt='20'>
       <Text
         bgGradient={colorGradient}
@@ -20,7 +20,7 @@ function Dashproj() {
         fontSize='4xl'
         fontWeight='extrabold'
       >
-        12m Radio Telescope Dashboard
+        PyDa
       </Text>
       <Text
         bgGradient='linear(to-t, #A0AEC0, #CBD5E0)'
@@ -28,7 +28,7 @@ function Dashproj() {
         fontSize='md'
         fontWeight='extrabold'
       >
-        Software Engineer Intern · Web Development · 2022
+        Software Developer · Web Development · 2020
       </Text>
       <Text
         bgGradient='linear(to-t, #A0AEC0, #CBD5E0)'
@@ -36,7 +36,7 @@ function Dashproj() {
         fontSize='md'
         fontWeight='extrabold'
       >
-        (React, Node.js, Express, MongoDB)
+        (HTML, CSS, Python, Django, SQLite)
       </Text>
     </Box>
     <Box>
@@ -45,7 +45,7 @@ function Dashproj() {
     </HStack>
     <VStack spacing='10' align='center' mt='10' px='40'>
         <Text
-          bgGradient={colorGradient}
+          bgGradient='linear(to-t, #276749, #48BB78)'
           bgClip='text'
           fontSize='3xl'
           fontWeight='extrabold'
@@ -79,7 +79,7 @@ function Dashproj() {
           </Box>
         </HStack>
         <Text
-          bgGradient={colorGradient}
+          bgGradient='linear(to-t, #276749, #48BB78)'
           bgClip='text'
           fontSize='3xl'
           fontWeight='extrabold'
@@ -133,7 +133,7 @@ function Dashproj() {
           </Box>
         </HStack>
         <Text
-          bgGradient={colorGradient}
+          bgGradient='linear(to-t, #276749, #48BB78)'
           bgClip='text'
           fontSize='3xl'
           fontWeight='extrabold'
@@ -157,7 +157,7 @@ function Dashproj() {
            to the general public, AO Staff, and people that aren’t well versed in terminal commands or dont have access to the internal network. 
         </Text>
         <Text
-          bgGradient={colorGradient}
+          bgGradient='linear(to-t, #276749, #48BB78)'
           bgClip='text'
           fontSize='3xl'
           fontWeight='extrabold'
@@ -168,7 +168,7 @@ function Dashproj() {
           <HStack spacing='10'>
             <Box w='50%' h='400px' align='center' p='10'>
               <Text
-                bgGradient={colorGradient}
+                bgGradient='linear(to-t, #276749, #48BB78)'
                 bgClip='text'
                 fontSize='xl'
                 fontWeight='extrabold'
@@ -194,7 +194,7 @@ function Dashproj() {
                 <Link href='https://github.com/jorgeortiz41/12m--dashboard-backend' isExternal>Back-end repo <ExternalLinkIcon mx='2px' /></Link>
               </Text>
               <Text
-                bgGradient={colorGradient}
+                bgGradient='linear(to-t, #276749, #48BB78)'
                 bgClip='text'
                 fontSize='xl'
                 fontWeight='extrabold'
@@ -238,7 +238,7 @@ function Dashproj() {
             </Box>
             <Box w='50%' h='400px' align='center' p='10'>
               <Text
-                bgGradient={colorGradient}
+                bgGradient='linear(to-t, #276749, #48BB78)'
                 bgClip='text'
                 fontSize='xl'
                 fontWeight='extrabold'
@@ -272,7 +272,7 @@ function Dashproj() {
                 Software documentation
               </Text>
               <Text
-                bgGradient={colorGradient}
+                bgGradient='linear(to-t, #276749, #48BB78)'
                 bgClip='text'
                 fontSize='xl'
                 fontWeight='extrabold'
@@ -290,7 +290,7 @@ function Dashproj() {
                 <Link href='https://www.naic.edu/' isExternal>The Arecibo Observatory <ExternalLinkIcon mx='2px' /></Link>
               </Text>
               <Text
-                bgGradient={colorGradient}
+                bgGradient='linear(to-t, #276749, #48BB78)'
                 bgClip='text'
                 fontSize='lg'
                 fontWeight='semibold'
@@ -315,4 +315,4 @@ function Dashproj() {
   )
 }
 
-export default Dashproj
+export default PyDa
