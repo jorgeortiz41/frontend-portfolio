@@ -54,7 +54,7 @@ function Home() {
                 fontSize='6xl'
                 fontWeight='extrabold'              
               >
-                Hey, I'm Jorge 
+                Hey, I'm Jorge Ortiz 
               </Text>
               </ScaleFade>
               <ScaleFade initialScale={0.5} in={true}>
