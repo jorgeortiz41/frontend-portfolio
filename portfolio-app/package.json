@@ -2,7 +2,7 @@
   "name": "my-app",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://jorgeortiz41.github.io",
+  "homepage": "https://jorgeortiz41.github.io/frontend-portfolio/",
   "dependencies": {
     "@chakra-ui/icons": "^2.0.9",
     "@chakra-ui/pro-theme": "^0.0.55",
@@ -27,7 +27,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "deploy": "gh-pages -b main -d build",
+    "deploy": "gh-pages -d build",
     "predeploy": "npm run build"
   },
   "eslintConfig": {
