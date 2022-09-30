@@ -19,7 +19,7 @@ function Projects() {
             bgGradient='linear(to-t, #A0AEC0, #CBD5E0)'
             bgClip='text'
             fontSize='6xl'
-            fontWeight='extrabold'   
+            fontWeight='extrabold'
           >
           Projects
           </Text>
@@ -27,7 +27,7 @@ function Projects() {
       </ScaleFade>
 
 
-      <Tabs isFitted isLazy>
+      <Tabs isFitted isLazy variant='enclosed'>
       <SlideFade in={true} offsetY='20px'>
         <TabList>
           <Tab>
@@ -54,7 +54,7 @@ function Projects() {
               PyDa
             </Text>
           </Tab>
-          <Tab>
+          <Tab isDisabled>
             <Text
               bgGradient='linear(to-t, #A0AEC0, #CBD5E0)'
               bgClip='text'  
@@ -62,7 +62,7 @@ function Projects() {
               PyData
             </Text>
           </Tab>
-          <Tab>
+          <Tab isDisabled>
             <Text
               bgGradient='linear(to-t, #A0AEC0, #CBD5E0)'
               bgClip='text'  
