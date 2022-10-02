@@ -35,7 +35,7 @@ import {
                     <Link to='/skills'><Button size='md'>Skills</Button></Link>
                   </ButtonGroup>
                   <HStack spacing="1">
-                    {/* <ColorModeSwitcher /> */}
+                    <ColorModeSwitcher />
                     <Tooltip hasArrow label='My LinkedIn Profile' fontSize='md'>
                       <IconButton
                       variant="ghost"
