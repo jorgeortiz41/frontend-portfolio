@@ -66,7 +66,7 @@ function Home() {
                 fontWeight='extrabold'                
               >
                 Currently Software Engineering Student on my 5th year at University of Puerto Rico Mayaguez Campus.
-                Specializing in full-stack web development and data science.
+                Specializing in full-stack web development and Data Science.
               </Text>
               </ScaleFade>
               <Spacer />
